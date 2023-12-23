@@ -1,0 +1,5 @@
+com\qa\gorest\tests\AmadeusAPITest.class
+com\qa\gorest\tests\CircuitTest.class
+com\qa\gorest\basetest\BaseTest.class
+com\qa\gorest\tests\GetUserTest.class
+com\qa\gorest\tests\CreateUserTest.class

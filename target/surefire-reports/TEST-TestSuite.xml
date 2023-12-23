@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.475" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\work\rest-api-framework\target\test-classes;D:\work\rest-api-framework\target\classes;C:\Users\shobhit\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\shobhit\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\shobhit\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\shobhit\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\shobhit\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\shobhit\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\shobhit\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\shobhit\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\shobhit\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\shobhit\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\shobhit\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\shobhit\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\shobhit\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\shobhit\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\shobhit\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\shobhit\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\shobhit\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\shobhit\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\shobhit\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\shobhit\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\shobhit\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\shobhit\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\shobhit\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\shobhit\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\shobhit\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\shobhit\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\shobhit\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\shobhit\AppData\Local\Temp\surefire3681824936650322826\surefirebooter-20231223155722752_3.jar C:\Users\shobhit\AppData\Local\Temp\surefire3681824936650322826 2023-12-23T15-57-22_495-jvmRun1 surefire-20231223155722752_1tmp surefire_0-20231223155722752_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\work\rest-api-framework\target\test-classes;D:\work\rest-api-framework\target\classes;C:\Users\shobhit\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\shobhit\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\shobhit\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\shobhit\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\shobhit\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\shobhit\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\shobhit\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\shobhit\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\shobhit\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\shobhit\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\shobhit\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\shobhit\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\shobhit\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\shobhit\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\shobhit\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\shobhit\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\shobhit\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\shobhit\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\shobhit\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\shobhit\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\shobhit\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\shobhit\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\shobhit\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\shobhit\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\shobhit\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\shobhit\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\shobhit\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\shobhit"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\work\rest-api-framework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\shobhit\AppData\Local\Temp\surefire3681824936650322826\surefirebooter-20231223155722752_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.19+9-LTS-224"/>
+    <property name="user.name" value="shobhit"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\shobhit\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\shobhit\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.19"/>
+    <property name="user.dir" value="D:\work\rest-api-framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="env" value="stage"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\apache-maven-3.3.9\\bin;C:\Program Files\Java\jdk-11\\lib;C:\JDKScripts;C:\Program Files\Java\jdk-11\\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\shobhit\AppData\Local\Microsoft\WindowsApps;C:\Users\shobhit\AppData\Local\Programs\Microsoft VS Code\bin;C:\java-8\bin;C:\Users\shobhit\AppData\Local\Programs\Git\cmd;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.19+9-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="getAllUsers" classname="com.qa.gorest.tests.GetUserTest" time="0.995">
+    <system-out><![CDATA[...
+... TestNG 7.8.0 by Cédric Beust (cedric@beust.com)
+...
+
+running tests on env : stage
+Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 56ac3ee0caddbd695b03ee69b35b2df32afcb0f661e6bafb1bfdf0d1179a40cf
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 23 Dec 2023 10:27:24 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"4e0361762a9544c58ef212e5e4965fee"
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-links-current: https://gorest.co.in/public/v2/users?page=1
+x-links-next: https://gorest.co.in/public/v2/users?page=2
+x-links-previous: 
+x-pagination-limit: 10
+x-pagination-page: 1
+x-pagination-pages: 271
+x-pagination-total: 2701
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 81
+x-ratelimit-reset: 1
+x-request-id: 789496c4-7959-40d0-ae4d-c9dbc2355348
+x-runtime: 0.082153
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WUr%2FWZaQL0mRKwHtFopE%2FfOUdYvYY5t0MWqG8gI4fjwbiBHreKIRACzQI2%2F3%2F77%2B8MzcuuuIPC7W5C6t0qqPZ3DP5qDSUo5ldFBDWGvvWs3%2FY6YEnUNhVDU6f4OcbVg%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 839fe96fd99531b2-BOM
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 5849132,
+        "name": "shobhit12",
+        "email": "shobhit1703327211438@api.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 5849131,
+        "name": "shobhit1",
+        "email": "shobhit1703327210845@api.com",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 5849130,
+        "name": "shobhit",
+        "email": "shobhit1703327209743@api.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 5849052,
+        "name": "shobhit12",
+        "email": "shobhit1703320661552@api.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 5849051,
+        "name": "shobhit1",
+        "email": "shobhit1703320660962@api.com",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 5849050,
+        "name": "shobhit",
+        "email": "shobhit1703320659809@api.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 5848993,
+        "name": "shobhit12",
+        "email": "shobhit1703320274976@api.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 5848992,
+        "name": "shobhit1",
+        "email": "shobhit1703320274347@api.com",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 5848991,
+        "name": "shobhit",
+        "email": "shobhit1703320272676@api.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 5848734,
+        "name": "shobhit111",
+        "email": "shobhit1703304943373@api.com",
+        "gender": "male",
+        "status": "active"
+    }
+]
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getUser" classname="com.qa.gorest.tests.GetUserTest" time="0.25">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/5840049
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 56ac3ee0caddbd695b03ee69b35b2df32afcb0f661e6bafb1bfdf0d1179a40cf
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 23 Dec 2023 10:27:25 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"464609870d0f60928b1f6ab207cdd975"
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 2
+x-request-id: 1376dc5d-fb24-486b-962a-288c14d26899
+x-runtime: 0.053047
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Dg8A9giDOITJBS5aOdoWGBf28l%2BGrIo9I3gXndV%2B92b9ooztDcoyuO5Bc3gePdNuwz1T%2BFNGjUpqC8NGI3Yrw2wKKwA27A59aCLkzCmHIIprs81swNxXC%2FvHHbt7cws%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 839fe971f831f2a6-BOM
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 5840049,
+    "name": "name",
+    "email": "shobhit1702989349650@mail.com",
+    "gender": "male",
+    "status": "active"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUserWithQueryParams" classname="com.qa.gorest.tests.GetUserTest" time="0.277">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/?status=inactive
+Proxy:			<none>
+Request params:	<none>
+Query params:	status=inactive
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 56ac3ee0caddbd695b03ee69b35b2df32afcb0f661e6bafb1bfdf0d1179a40cf
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 23 Dec 2023 10:27:25 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"654aa5c0e13a7b0609d6fb11e855d376"
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-links-current: https://gorest.co.in/public/v2/users?page=1
+x-links-next: https://gorest.co.in/public/v2/users?page=2
+x-links-previous: 
+x-pagination-limit: 10
+x-pagination-page: 1
+x-pagination-pages: 140
+x-pagination-total: 1396
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 88
+x-ratelimit-reset: 2
+x-request-id: 47c54735-c5c0-4b32-b16a-3acdeff0007f
+x-runtime: 0.070869
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uT%2FCAe9Vs%2BbmYi%2FIhxAhIHtfNYEVomEi9YkutE%2BfHEN1zoZC6Cjt7bt0lRD%2BSVf6MsANmKO99U7HQ2sxq3X9EtBAsSJO78NZCwg66biWqu6GB2c6R790cOzSgynSTi8%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 839fe9735c9ef2d6-BOM
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 5849131,
+        "name": "shobhit1",
+        "email": "shobhit1703327210845@api.com",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 5849051,
+        "name": "shobhit1",
+        "email": "shobhit1703320660962@api.com",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 5848992,
+        "name": "shobhit1",
+        "email": "shobhit1703320274347@api.com",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 5841673,
+        "name": "shobhit commodity ....",
+        "email": "shobhit1703085013531@api.com",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 5841669,
+        "name": "shobhit commodity ....",
+        "email": "shobhit1703084792296@api.com",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 5841654,
+        "name": "shobhit commodity ....",
+        "email": "shobhit1703084321516@api.com",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 5816727,
+        "name": "Ekdant Nayar",
+        "email": "ekdant_nayar@corkery.test",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 5816716,
+        "name": "Dwaipayana Chopra",
+        "email": "chopra_dwaipayana@gislason.example",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 5816714,
+        "name": "Anandamayi Johar",
+        "email": "johar_anandamayi@dickinson.example",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 5816713,
+        "name": "Draupadi Varma",
+        "email": "draupadi_varma@haag-tillman.example",
+        "gender": "female",
+        "status": "inactive"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="createUserTest[shobhit, male, active](1)" classname="com.qa.gorest.tests.CreateUserTest" time="1.1">
+    <system-out><![CDATA[running tests on env : stage
+Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 56ac3ee0caddbd695b03ee69b35b2df32afcb0f661e6bafb1bfdf0d1179a40cf
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "shobhit",
+    "email": "shobhit1703327245547@api.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 201 Created
+Date: Sat, 23 Dec 2023 10:27:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 104
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"2dab60c022f77ba384d4cfa6761c5d22"
+location: https://gorest.co.in/public/v2/users/5849133
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 87
+x-ratelimit-reset: 3
+x-request-id: 2553da26-043c-43a8-a4fb-2f3d865cc87f
+x-runtime: 0.078223
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KY6oB4JwOXBRUglHamG%2FktRFuK531mpeIDAZYbYfE8CK9OxUc6TVhh%2FUo3s04dWWjIY0F3mtNLFrLhfxd1WEsWzoAMdgqF06HSv33SM9vWKaJ94AX1%2BOMRd7cRKWbEc%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 839fe976adc0f3cd-BOM
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 5849133,
+    "name": "shobhit",
+    "email": "shobhit1703327245547@api.com",
+    "gender": "male",
+    "status": "active"
+}
+User id: 5849133
+Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/5849133
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 56ac3ee0caddbd695b03ee69b35b2df32afcb0f661e6bafb1bfdf0d1179a40cf
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 23 Dec 2023 10:27:26 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"2dab60c022f77ba384d4cfa6761c5d22"
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 86
+x-ratelimit-reset: 4
+x-request-id: 8ab73586-41dc-4dcc-8bd9-b23be48e54ab
+x-runtime: 0.046550
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HFAKv1klTf8nHBU6z3MtAXpa2fatmdTRdKBnJn3x6IblI8uzf9Zj4lVNISjfj6V5OP%2B3tj1nXPXu%2B49nWGBFbLSwBL3Bu4SqZPmpwTmQucPlnArXewPj8Wl4Q2i6qk4%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 839fe97a9b2729f2-BOM
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 5849133,
+    "name": "shobhit",
+    "email": "shobhit1703327245547@api.com",
+    "gender": "male",
+    "status": "active"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createUserTest[shobhit1, male, inactive](2)" classname="com.qa.gorest.tests.CreateUserTest" time="0.493">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 56ac3ee0caddbd695b03ee69b35b2df32afcb0f661e6bafb1bfdf0d1179a40cf
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "shobhit1",
+    "email": "shobhit1703327246649@api.com",
+    "gender": "male",
+    "status": "inactive"
+}
+HTTP/1.1 201 Created
+Date: Sat, 23 Dec 2023 10:27:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 107
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"53192f267e697c59fb6a98de32f62925"
+location: https://gorest.co.in/public/v2/users/5849134
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 85
+x-ratelimit-reset: 4
+x-request-id: 8ab97e5d-d5a4-4cd8-9be8-f3e99a9a2f53
+x-runtime: 0.067738
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5JobXsw4UlnWyx0uzpgMrqONaeTJoziUGmUzTePzHk9dM%2B6zKIh7q45dUpIPNqn3exJfwS%2BMA0h3n9cZ1giyN0DSyiYzrIHa9RiTOEu5tSFFfrGnrvOKVfLWF0Hx8Qk%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 839fe97c2dd92960-BOM
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 5849134,
+    "name": "shobhit1",
+    "email": "shobhit1703327246649@api.com",
+    "gender": "male",
+    "status": "inactive"
+}
+User id: 5849134
+Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/5849134
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 56ac3ee0caddbd695b03ee69b35b2df32afcb0f661e6bafb1bfdf0d1179a40cf
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 23 Dec 2023 10:27:27 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"53192f267e697c59fb6a98de32f62925"
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 84
+x-ratelimit-reset: 5
+x-request-id: 26bcd24a-41b6-4f1c-afc9-4358d3609301
+x-runtime: 0.043261
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZUXLbcwbiNgD%2Bkj75UMBBH7mMNIqHHADNEE7jOzt29lNbm93HfFimAd33ys0sBMnics6nVpyjqtvw6UKC1KPTXur4NCdm%2B2YguLUihW7TEj6wGTizjP7Vwb0Z55AZE8%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 839fe97dec542967-BOM
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 5849134,
+    "name": "shobhit1",
+    "email": "shobhit1703327246649@api.com",
+    "gender": "male",
+    "status": "inactive"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createUserTest[shobhit12, male, active](3)" classname="com.qa.gorest.tests.CreateUserTest" time="0.751">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 56ac3ee0caddbd695b03ee69b35b2df32afcb0f661e6bafb1bfdf0d1179a40cf
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "shobhit12",
+    "email": "shobhit1703327247142@api.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 201 Created
+Date: Sat, 23 Dec 2023 10:27:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 106
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"7df38e5a286e716400e87360117f474d"
+location: https://gorest.co.in/public/v2/users/5849135
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 83
+x-ratelimit-reset: 6
+x-request-id: 54c39c39-352c-4196-b3db-7048257ad293
+x-runtime: 0.067628
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MC%2Bxqm2cJb2Ic%2ByZ8kGchoD5LdT%2BMhPbBVotP4WvaashsjYyDPWUrVBFjejIO%2B14cqopXowRVrY4r62WHd5eYwgn60REQURiQzmEDhzDf6HiAiXGGOlrb09DHlu2MUI%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 839fe97fdf6af2ce-BOM
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 5849135,
+    "name": "shobhit12",
+    "email": "shobhit1703327247142@api.com",
+    "gender": "male",
+    "status": "active"
+}
+User id: 5849135
+Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/5849135
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 56ac3ee0caddbd695b03ee69b35b2df32afcb0f661e6bafb1bfdf0d1179a40cf
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 23 Dec 2023 10:27:27 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"7df38e5a286e716400e87360117f474d"
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 82
+x-ratelimit-reset: 6
+x-request-id: 910ad02c-feea-4fb1-9481-ecdeab23c992
+x-runtime: 0.079871
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rKUnHmD6jx6Wkmz0xUzWw8KB8%2FAx%2FCxGFsJqyXOe2nN79YCjq%2FmRzjjStV6bFVUxhIPdPxghzAmpNKjdTCIB5NIXa9UZozNkpbf1H1rnGsVNcWb%2FniKqpBNz7RYUZOA%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 839fe9827b301bdc-BOM
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 5849135,
+    "name": "shobhit12",
+    "email": "shobhit1703327247142@api.com",
+    "gender": "male",
+    "status": "active"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getAllUsersTest" classname="com.qa.gorest.tests.CircuitTest" time="0.557">
+    <system-out><![CDATA[running tests on env : stage
+Request method:	GET
+Request URI:	http://ergast.com/api/f1/2019/circuits.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+["China"]
+]]></system-out>
+  </testcase>
+</testsuite>

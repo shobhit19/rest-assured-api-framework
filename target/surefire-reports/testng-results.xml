@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-23T15:57:23 IST" name="API Regression Suite" finished-at="2023-12-23T15:57:28 IST" duration-ms="4860">
+    <groups>
+    </groups>
+    <test started-at="2023-12-23T15:57:23 IST" name="Go Rest API Test" finished-at="2023-12-23T15:57:25 IST" duration-ms="1920">
+      <class name="com.qa.gorest.tests.GetUserTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.gorest.tests.GetUserTest@48aca48b]" started-at="2023-12-23T15:57:23 IST" name="setUp" finished-at="2023-12-23T15:57:23 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://gorest.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getUserStepMethod()[pri:0, instance:com.qa.gorest.tests.GetUserTest@48aca48b]" started-at="2023-12-23T15:57:23 IST" name="getUserStepMethod" finished-at="2023-12-23T15:57:23 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserStepMethod -->
+        <test-method signature="getAllUsers()[pri:0, instance:com.qa.gorest.tests.GetUserTest@48aca48b]" started-at="2023-12-23T15:57:23 IST" name="getAllUsers" finished-at="2023-12-23T15:57:24 IST" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+        <test-method is-config="true" signature="getUserStepMethod()[pri:0, instance:com.qa.gorest.tests.GetUserTest@48aca48b]" started-at="2023-12-23T15:57:24 IST" name="getUserStepMethod" finished-at="2023-12-23T15:57:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserStepMethod -->
+        <test-method signature="getUser()[pri:0, instance:com.qa.gorest.tests.GetUserTest@48aca48b]" started-at="2023-12-23T15:57:24 IST" name="getUser" finished-at="2023-12-23T15:57:25 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method is-config="true" signature="getUserStepMethod()[pri:0, instance:com.qa.gorest.tests.GetUserTest@48aca48b]" started-at="2023-12-23T15:57:25 IST" name="getUserStepMethod" finished-at="2023-12-23T15:57:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserStepMethod -->
+        <test-method signature="getUserWithQueryParams()[pri:0, instance:com.qa.gorest.tests.GetUserTest@48aca48b]" started-at="2023-12-23T15:57:25 IST" name="getUserWithQueryParams" finished-at="2023-12-23T15:57:25 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserWithQueryParams -->
+      </class> <!-- com.qa.gorest.tests.GetUserTest -->
+    </test> <!-- Go Rest API Test -->
+    <test started-at="2023-12-23T15:57:25 IST" name="Go Rest API Create User Test" finished-at="2023-12-23T15:57:27 IST" duration-ms="2350">
+      <class name="com.qa.gorest.tests.CreateUserTest">
+        <test-method signature="createUserTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserTest@76a4ebf2]" started-at="2023-12-23T15:57:25 IST" name="createUserTest" data-provider="getUserTestData" finished-at="2023-12-23T15:57:26 IST" duration-ms="1100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shobhit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method is-config="true" signature="getUserStepMethod()[pri:0, instance:com.qa.gorest.tests.CreateUserTest@76a4ebf2]" started-at="2023-12-23T15:57:25 IST" name="getUserStepMethod" finished-at="2023-12-23T15:57:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserStepMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserTest@76a4ebf2]" started-at="2023-12-23T15:57:25 IST" name="setUp" finished-at="2023-12-23T15:57:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://gorest.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getUserStepMethod()[pri:0, instance:com.qa.gorest.tests.CreateUserTest@76a4ebf2]" started-at="2023-12-23T15:57:26 IST" name="getUserStepMethod" finished-at="2023-12-23T15:57:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserStepMethod -->
+        <test-method signature="createUserTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserTest@76a4ebf2]" started-at="2023-12-23T15:57:26 IST" name="createUserTest" data-provider="getUserTestData" finished-at="2023-12-23T15:57:27 IST" duration-ms="488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shobhit1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method is-config="true" signature="getUserStepMethod()[pri:0, instance:com.qa.gorest.tests.CreateUserTest@76a4ebf2]" started-at="2023-12-23T15:57:27 IST" name="getUserStepMethod" finished-at="2023-12-23T15:57:27 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserStepMethod -->
+        <test-method signature="createUserTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserTest@76a4ebf2]" started-at="2023-12-23T15:57:27 IST" name="createUserTest" data-provider="getUserTestData" finished-at="2023-12-23T15:57:27 IST" duration-ms="750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shobhit12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+      </class> <!-- com.qa.gorest.tests.CreateUserTest -->
+    </test> <!-- Go Rest API Create User Test -->
+    <test started-at="2023-12-23T15:57:27 IST" name="Circuit API Test" finished-at="2023-12-23T15:57:28 IST" duration-ms="557">
+      <class name="com.qa.gorest.tests.CircuitTest">
+        <test-method signature="getAllUsersTest()[pri:0, instance:com.qa.gorest.tests.CircuitTest@1530c739]" started-at="2023-12-23T15:57:27 IST" name="getAllUsersTest" finished-at="2023-12-23T15:57:28 IST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsersTest -->
+        <test-method is-config="true" signature="getUserStepMethod()[pri:0, instance:com.qa.gorest.tests.CircuitTest@1530c739]" started-at="2023-12-23T15:57:27 IST" name="getUserStepMethod" finished-at="2023-12-23T15:57:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserStepMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.gorest.tests.CircuitTest@1530c739]" started-at="2023-12-23T15:57:27 IST" name="setUp" finished-at="2023-12-23T15:57:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://ergast.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.qa.gorest.tests.CircuitTest -->
+    </test> <!-- Circuit API Test -->
+  </suite> <!-- API Regression Suite -->
+</testng-results>
